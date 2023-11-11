@@ -1,0 +1,102 @@
+#fullBody{
+    width:60%;
+    font-family: arial;
+    size:12px;
+    border: 3px solid black;
+}
+
+#head{
+    background-image: url(Pictures/background1.JPG);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+#menu{
+    background:#474746;
+    border-bottom: 4px solid orange;
+    width: 100%;
+    height: 30px;
+}
+.mainMenu{
+    color:orange;
+    float:left;
+    padding: 6px 5px 14px 10px;
+    font-weight: bold;
+}
+.mainMenu:hover{
+    color:red;
+    float:left;
+    padding: 6px 5px 14px 10px;
+    font-weight: bold;
+
+}
+.divideMenu{
+    background:#4F4F4F;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    margin-left: 5px;
+    width:3px;
+    height:25px;
+    float:left;
+}
+
+#body{
+    background:white;
+    width:100%;
+    height: 850px;
+}
+
+#bodyLeft{
+    float:left;
+    width: 19%;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.smallMenu{
+    width: 95%;
+    border:1px solid grey;
+    margin-bottom: 20px;
+}
+
+.nameSmallMenu{
+    color: white;
+    background: #474746;
+    width:95%;
+    height:20px;
+    border-left: 10px solid orange;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom:6px;
+}
+.sonMenu{
+    color:black;
+    text-align: left;
+    margin-left: -40px;
+    padding:4px;
+}
+.sonMenu:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#bodyRight{
+    float:right;
+    width: 19%;
+    margin-left: 1px;
+    margin-top: 5px;
+
+}
+
+#bodyCenter{
+    width: 59%;
+    float: center;
+    margin-left: 2px;
+
+}
+#gioithieu{
+    background:#F5CF9A;
+    width:98%;
+    height:60px;
+    color:white;
+}
