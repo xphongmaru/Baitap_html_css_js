@@ -1,0 +1,85 @@
+
+.header{
+	width: 100%;
+	height: 40px;
+	background-color:rgb(255, 119, 0);
+	display: flex;
+	justify-content: space-between;
+	
+}
+.menu{
+	padding-left: 0;
+	margin: auto 16px;
+}
+.nameMenu{
+	list-style: none;
+	color: red;
+	display: inline-block;
+	color: white;
+	margin: auto 10px;
+}
+.container-form{
+	max-width: 720px;
+	background-color: rgb(141, 139, 139);
+	margin: 36px auto auto auto;
+	padding: 32px;
+}
+.form_row{
+	padding: 8px 0;
+	display: flex;
+	flex-direction: row;
+	
+}
+.formName{
+	width: 90px;
+	font-weight: bold;
+}
+.formId{
+	flex: 1;
+	font-weight: bold;
+}
+
+.textcolumn{
+	background-color: rgb(217, 216, 216);
+	display: flex;
+	margin-top: 36px;
+	
+}
+
+.item{
+	padding: 0 16px;
+}
+.leftText{
+	flex: 1;
+}
+
+.mainText{
+	flex: 3;
+}
+.rightText{
+	flex: 1;
+}
+
+.textcolumn2{
+	background-color: rgb(150, 148, 148);
+	margin-top: 36px;
+	display: flex;
+	padding: 36px 0;
+	justify-content: space-evenly;
+}
+
+.item2{
+	padding: 16px 16px;
+	flex-basis: 30%;
+	
+}
+.leftText2{
+	background-color: aquamarine;
+}
+
+.mainText2{
+	background-color: cadetblue;
+}
+.rightText2{
+	background-color: hotpink;
+}
