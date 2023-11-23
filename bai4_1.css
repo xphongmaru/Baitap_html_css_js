@@ -1,47 +1,136 @@
-#fullBody{
-    width: 100%;
+body{
     height: 900px;
-    border: 1px solid black;
-    background-color: white;
-    font-family: Arial;
-    margin-top: 80px;
 }
-
-#head{
+#fullBody{
+    width: 70%;
+    font-family: arial;
+    margin-left: 35px;
+}
+#header{
     width: 100%;
     height: 50px;
-    border: 1px solid rgb(253, 0, 0);
-}
+    display: flex;
+    justify-content: space-between;
 
-#nameHead{
-    font-family: 'Roboto Slab', serif;
-    font-style:italic;
-    font-weight: bold;
-    font-size:35px;
 }
-#menuHead{
-    width: 60%;
-    height: 30px;
-    border: 5px solid black;
-}      
-#menuHead ul > li{
-    float: right;
-    margin-right: 20px;
-    margin-top: 50px;
-    font-size: 25px;
+#nameHeader{
     color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 35px;
+    float: left;
+
 }
-#menuHead ul > li:hover{
+#menuheader{
+    
+}
+.nameMenuHeader{
+    display: inline-block;
+    margin: 30px auto auto 25px;
+    font-size: 25px;
+}
+.nameMenuHeader:hover{
     color: blue;
     cursor: pointer;
-    text-decoration: underline;
 }
 #button{
-	padding: 5px 10px;
-	margin-top:-11px;
-	font-size: 15px;
-	border-radius:5px;
-	font-family: arial;
-	color: blue;
-    border: 1px da;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+#button:hover{
+    color: red;
+}
+#mainBody{
+    margin-top: 70px;
+    display: flex;
+
+}
+#leftBody{
+    width: 23%;
+    height: 300px;
+ 
+}
+#centerBody{
+    width: 73%;
+    height: 750px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+#leftBody ul > li{
+    list-style: none;
+    margin-bottom: 7px;
+    margin-left:-30px;
+}
+#leftBody ul > li:hover{
+    color:blue;
+    cursor:pointer;
+    text-decoration: underline;
+}
+.content{
+    width: 30%;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 16px 1% 1% 1% ;
+    
+}
+.top{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    border-radius:10px 10px 0px 0px;
+}
+.top h3{
+    margin: 0px ;
+    padding: 5px;
+}
+.bottom{
+    width: 100%;
+    height: 80%;
+    background-color: orange;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+.infor{
+    width: 100%;
+    height: 25%;
+    background-color: gray;
+    border-radius:0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+}
+.infor h4{
+    color: white;
+    margin:8px auto auto 10px;
+}
+.bg1{
+	background-image: url(Pictures/Samsung2.jpg);
+	background-size: cover;
+}
+
+#footer{
+    width: 100%;
+    height: 70px;
+}
+#footer p{
+    font-size: 15px;
+    float: left;
+    margin-right: 20px;
+}
+#footer ul>li{
+    color: blue;
+    float: left;
+    margin-left: 25px;
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 15px;
+
+}
+#footer ul>li:hover{
+    color:red;
+    cursor: pointer;
 }
