@@ -1,6 +1,94 @@
 #header{
-    width: 100%;
-    height: 50px;
+    /* height: 50px; */
     border: 1px solid black;
-    background-color: rgb(23, 222, 23);
+    background-color: #78b43d;
+}
+.logo{
+    height: 50px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 50px;
+}
+
+
+.container{
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+#mainMenu li a .logo{
+    padding: 0px;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+}
+#mainMenu{
+    display: flex;
+    flex:1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#mainMenu li a {
+    color: white;
+    text-decoration: none ;
+    font-family: arial;
+    padding: 18px 10px;
+    display: block;
+    border-right: 1px solid white;
+    
+}
+#mainMenu >li:first-child{
+    border-left:1px solid #a3db6f;
+    border-right:1px solid #a3db6f;   
+}
+#mainMenu li{
+    position: relative;
+}
+#mainMenu ul.subMenu{
+    list-style: none;
+    position:absolute;
+    background-color: #78b43d;
+    min-width: 200px;
+    padding:0;
+    border:1px solid #59743f;
+    display: none;
+}
+#mainMenu ul.subMenu a{
+    border-bottom: 1px solid #8a8a8a;
+    padding: 10px 10px;
+}  
+#mainMenu ul.subMenu li:hover>a{
+    border-bottom: 1px solid #cbcbcb;
+    background-color: #92d252;
+}
+#mainMenu ul.subMenu ul.subMenu{
+    position: absolute;
+    left: 200px;
+    top:-1px
+}  
+
+#mainMenu li:hover>ul.subMenu{
+    display: block;
+    
+}
+
+#mainMenu>li>a::before{
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-color: #59743f;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#mainMenu>li:hover>a::before{
+    width: 100%;
 }
