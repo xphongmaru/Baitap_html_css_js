@@ -1,0 +1,88 @@
+#content{
+    width: 100%;
+    /* height: 480px; */
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+}
+.child-content{
+    width: 24%;
+    /* border: 1px solid black; */
+    /* position: relative; */
+}
+
+.child-content-top{
+    width: 100%;
+    height: 84%;
+    position: relative;
+}
+.child-content-top img{
+    width: 100%;
+    height: 100%;
+}
+.child-content-bottom{
+
+    color: #8d8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.child-content-bottom h2{
+    margin: 15px auto;
+}
+.child-content-bottom h4{
+    margin: 0px auto;
+    font-weight:none;
+    
+}
+.child-content-top::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffa8;
+    position: absolute;
+    opacity: 0;
+    bottom: 0px;
+    transition: opacity 0.25s linear;
+} 
+.child-content-top:hover::before{
+    opacity: 1;
+}
+/* @media all and (min-width: 320px){ 
+    
+} */
+/* 
+.child-content:nth-child(1) .child-content-top::before{
+    /* content: "Hello & Wellcome";
+    content:"";
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ffffffa8;
+    position: absolute;
+    opacity: 0;
+    bottom: 0px;
+    transition: opacity 0.25s linear;
+} */
+
+
+/* .child-content:nth-child(1) .child-content-top:hover::before{
+    opacity: 1;
+}
+.child-content:nth-child(2) .child-content-top::before{
+    content: "ausdgfla";
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffa8;
+    position: absolute;
+    opacity: 0;
+    bottom: 0px;
+    transition: opacity 0.25s linear;
+}
+.child-content:nth-child(2) .child-content-top:hover::before{
+    opacity: 1;
+}
+ */ 
