@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bai8_3.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            margin: 0;
+        }
+
+        #wrapper {
+            background: gray;
+            background-size: cover;
+            width: 100%;
+        }
+        #content {
+            background: green;
+            opacity: 0.9;
+            margin: auto;
+        }
+        #content h1 {
+            text-align: center;
+            width: 100%;
+            opacity: 1;
+            background: gray;
+        }
+        #content input, label {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #result {
+            width: 100%;
+            text-align: center;
+            font-size: 150%;
+            background: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Tính tổng S = 1 /1! + 2 /2! + ....+ n / n!</h1>
+        <label for="n"> Nhập số nguyên dương N: </label>
+        <input type="text" name="soN" id="n" onkeyup="tinhTong()">
+        <br/>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
