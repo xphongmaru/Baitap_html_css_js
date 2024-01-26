@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#warpaper{
+    background-image: url(Pictures/cool-background.png);
+    background-size: cover;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: #2b3643;
+    box-sizing: border-box;
+    /* position: fixed; */
+    top: 0px;
+}
+#logo{
+    display: flex;
+    /* justify-content:space-around; */
+}
+#logo img{
+    width: 50px;
+    width: 50px;
+    margin: 5px 20px;
+}
+#logo span{
+    color: white;
+    
+    font-weight: bold;
+    font-size: 52px;
+    margin: auto auto auto 5px;
+}
+#content{
+    border: 1px solid black;
+    width: 60%;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+.panel{
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+.panel-title{
+    height: 60px;
+    width: 100%;
+    background: gray;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom:1px solid #666363;
+}
+.panel-title button{
+    position: absolute;
+    width: 40px;
+    height: 34px;
+    top:12px;
+    left:-15px;
+    border-radius:6px;
+}
+.panel-title button i{
+    font-size:x-large;
+    cursor: pointer;
+}
+.panel-title span{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top:15px;
+    left: 45px;
+    cursor: pointer;
+}
+.panel-content{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
